@@ -1,0 +1,19 @@
+{
+    "name": "@component/bacom",
+    "type": "module",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "exports src/* --exports --analyzer --types --watch",
+        "build": "rollup -c"
+    },
+    "dependencies": {
+        "@rollup/plugin-node-resolve": "latest",
+        "@rollup/plugin-typescript": "latest",
+        "bacom": "latest",
+        "rollup": "latest",
+        "rollup-plugin-swc-minify": "latest",
+        "tslib": "latest",
+        "typescript": "latest"
+    }
+}

@@ -29,6 +29,7 @@
     "dependencies": {
         "tachometer": "^0.7.0",
         "atomico": "latest",
+        "bacom": "latest",
         "lit": "latest",
         "preact": "latest",
         "preact-custom-element": "latest",

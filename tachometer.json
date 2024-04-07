@@ -10,6 +10,14 @@
             }
         },
         {
+            "name": "bacom",
+            "url": "packages/bacom/index.html",
+            "browser": {
+                "name": "chrome",
+                "headless": true
+            }
+        },
+        {
             "name": "lit",
             "url": "packages/lit/index.html",
             "browser": {
